@@ -10,6 +10,10 @@ header {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+}
+
 .code-card {
     border: 1px black solid;
     text-align: center;
@@ -24,6 +28,7 @@ header {
 @media screen and (max-width: 768px) {
     .code-card {
         width: 100%;
+        height: 33.33%;
     }
     
 }
