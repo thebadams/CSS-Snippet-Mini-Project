@@ -10,6 +10,11 @@ header {
     text-align: center;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 footer {
     text-align: center;
 }
@@ -20,6 +25,9 @@ footer {
 }
 
 @media screen and (max-width: 992px){
+    .code-card {
+        width: 50%;
+    }
 
 }
 
