@@ -20,6 +20,7 @@ footer {
 }
 
 .code-card {
+    width: 33.33%;
     border: 1px black solid;
     text-align: center;
 }
