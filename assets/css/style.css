@@ -2,12 +2,12 @@
     --cardcolor: purple;
 }
 
-@media and screen (max-width: 992px){
+@media screen and (max-width: 992px){
 
 }
 
 
 
-@media and screen (max-width: 768px) {
+@media and screen and (max-width: 768px) {
     
 }
