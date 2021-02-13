@@ -1,9 +1,3 @@
-@media screen (max-width: 992px){
-
-}
-
-
-
 @media screen (max-width: 768px) {}
 .linear-gradient-background {
     background-color: purple;
@@ -12,5 +6,19 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
 
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat (12, 1fr);
+}
+
+.code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
 }
