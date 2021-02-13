@@ -4,6 +4,13 @@
 
 
 
-@media screen (max-width: 768px) {
+@media screen (max-width: 768px) {}
+.linear-gradient-background {
+    background-color: purple;
+} 
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
- }
+}
