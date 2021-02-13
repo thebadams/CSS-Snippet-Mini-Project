@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .linear-gradient-background {
     background-color: purple;
 } 
@@ -10,6 +11,14 @@
 .card-header {
     position: relative;
     margin-top: -20px;
+=======
+:root {
+    --cardcolor: purple;
+}
+
+@media and screen (max-width: 992px){
+
+>>>>>>> 48a0dc84c1757737afb92f53cdb93c25ba4bc472
 }
 
 .grid {
@@ -18,7 +27,14 @@
     grid-template-columns: repeat (12, 1fr);
 }
 
+<<<<<<< HEAD
 .code-card .card-header {
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
+=======
+
+@media and screen (max-width: 768px) {
+    
+}
+>>>>>>> 48a0dc84c1757737afb92f53cdb93c25ba4bc472
