@@ -1,7 +1,7 @@
-@media screen (max-width: 768px) {}
 .linear-gradient-background {
     background-color: purple;
 } 
+@media screen and (max-width: 768px) {}
 .row {
     display: flex;
     flex-direction: column;
