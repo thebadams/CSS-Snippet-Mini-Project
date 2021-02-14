@@ -29,7 +29,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     width: 33.33%;
-    border: 1px black solid;
+    border: 1px #fff solid;
     text-align: center;
 }
 
