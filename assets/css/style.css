@@ -20,6 +20,12 @@ main {
     flex-wrap: wrap;
 }
 
+pre {
+    background-image: linear-gradient(
+        rgba(35, 9, 104, 1) 0%,
+        rgba(35, 9, 104, .3) 100%
+    );
+}
 footer {
     text-align: center;
 }
