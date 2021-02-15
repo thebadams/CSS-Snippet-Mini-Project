@@ -31,11 +31,15 @@ footer {
     width: 33.33%;
     border: 1px #fff solid;
     text-align: center;
+    align-items: center;
 }
 
 .card-header {
     position: relative;
     margin-top: -20px;
+    background-color: rgb(37, 37, 37);
+    width: 80%;
+    border: 1px white solid;
 }
 
 @media screen and (max-width: 992px){
