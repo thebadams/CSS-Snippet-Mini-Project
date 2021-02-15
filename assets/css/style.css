@@ -28,10 +28,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    width: 33.33%;
+    width: 31.33%;
     border: 1px #fff solid;
     text-align: center;
     align-items: center;
+    margin: 15px 1%
 }
 
 .card-header {
@@ -44,7 +45,7 @@ footer {
 
 @media screen and (max-width: 992px){
     .code-card {
-        width: 50%;
+        width: 48%;
     }
 
 }
@@ -53,7 +54,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .code-card {
-        width: 100%;
+        width: 98%;
         height: 33.33%;
     }
     
