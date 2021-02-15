@@ -27,10 +27,15 @@ footer {
 .code-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: left;
     width: 33.33%;
     border: 1px #fff solid;
     text-align: center;
+}
+
+.card-header {
+    position: relative;
+    margin-top: -20px;
 }
 
 @media screen and (max-width: 992px){
