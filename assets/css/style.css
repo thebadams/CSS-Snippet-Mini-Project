@@ -1,6 +1,7 @@
 :root {
-    --dark: rgba(35, 9, 104, 1) 0%,
-        rgba(35, 9, 104, .3) 100%
+    --dark: 35, 9, 104;
+    --background: rgb(150,150,150);
+    font-size: 16px;
 }
 
 * {
@@ -8,8 +9,8 @@
 }
 
 body {
-    color: #fff;
-    background: rgb(37, 37, 37);
+    color: rgb(var(--dark));
+    background: var(--background);
 }
 
 header {
@@ -22,11 +23,16 @@ main {
 }
 
 pre {
-    background-image: linear-gradient(var(--dark)
+    background-image: linear-gradient(
+        rgba(var(--dark), 1) 0%,
+        rgba(var(--dark), .3) 100%
         /* rgba(35, 9, 104, 1) 0%,
         rgba(35, 9, 104, .3) 100% */
     );
     user-select: all;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
 }
 footer {
     text-align: center;
@@ -37,19 +43,20 @@ footer {
     flex-direction: column;
     justify-content: left;
     width: 31.33%;
-    border: 1px #fff solid;
+    border: 1px rgb(60, 60, 60) solid;
     text-align: center;
     align-items: center;
-    margin: 15px 1%
+    margin: 15px 1%;
+    border-radius: 8px
 }
 
 .card-header {
     position: relative;
     margin-top: -20px;
-    /* background-color: rgb(37, 37, 37); */
+    background-color: var(--background);
     width: 80%;
-    border: 1px white solid;
-    background-image: linear-gradient(var(--dark));
+    border: 1px rgb(60,60,60) solid;
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 992px){
