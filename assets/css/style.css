@@ -1,5 +1,6 @@
 :root {
-    --cardcolor: purple;
+    --dark: rgba(35, 9, 104, 1) 0%,
+        rgba(35, 9, 104, .3) 100%
 }
 
 * {
@@ -21,9 +22,9 @@ main {
 }
 
 pre {
-    background-image: linear-gradient(
-        rgba(35, 9, 104, 1) 0%,
-        rgba(35, 9, 104, .3) 100%
+    background-image: linear-gradient(var(--dark)
+        /* rgba(35, 9, 104, 1) 0%,
+        rgba(35, 9, 104, .3) 100% */
     );
     user-select: all;
 }
@@ -45,9 +46,10 @@ footer {
 .card-header {
     position: relative;
     margin-top: -20px;
-    background-color: rgb(37, 37, 37);
+    /* background-color: rgb(37, 37, 37); */
     width: 80%;
     border: 1px white solid;
+    background-image: linear-gradient(var(--dark));
 }
 
 @media screen and (max-width: 992px){
