@@ -25,6 +25,7 @@ pre {
         rgba(35, 9, 104, 1) 0%,
         rgba(35, 9, 104, .3) 100%
     );
+    user-select: all;
 }
 footer {
     text-align: center;
